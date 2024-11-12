@@ -5,10 +5,10 @@ SomeService = softwaresystem "SomeService" {
     someServiceBack = container "SSSS" "AAAA"
 }
 
-container SomeService "container_SomeService" {
+container SomeServiceContainer "container_SomeService" {
     include *
 }
 
-systemContext SomeService "systemContext_SomeService" {
+systemContext SomeServiceСontext "systemContext_SomeService" {
     include *
 }
