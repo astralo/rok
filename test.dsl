@@ -4,3 +4,11 @@ SomeService = softwaresystem "SomeService" {
 
     someServiceBack = container "SSSS" "AAAA"
 }
+
+container SomeService "container_SomeService" {
+    include *
+}
+
+systemContext SomeService "systemContext_SomeService" {
+    include *
+}
